@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.link {
+  padding: 20px 0px;
+}
+.item {
+  padding: 20px 0px;
+}

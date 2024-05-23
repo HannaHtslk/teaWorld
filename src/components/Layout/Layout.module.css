@@ -1,0 +1,17 @@
+.header {
+  background-color: #33333331;
+  padding: 10px 0;
+}
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #3333334f;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
