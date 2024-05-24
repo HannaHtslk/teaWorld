@@ -6,7 +6,7 @@ const Benefits = () => {
       <li className={s.item}>
         <img
           className={s.img}
-          src="/public/img/benefits/org@2x.png"
+          src="/img/benefits/org@2x.png"
           alt="organics"
           width="82"
         />
@@ -15,7 +15,7 @@ const Benefits = () => {
       <li className={s.item}>
         <img
           className={s.img}
-          src="/public/img/benefits/cust@2x.png"
+          src="/img/benefits/cust@2x.png"
           alt="customer-service"
           width="82"
         />
@@ -24,7 +24,7 @@ const Benefits = () => {
       <li className={s.item}>
         <img
           className={s.img}
-          src="/public/img/benefits/seed@2x.png"
+          src="/img/benefits/seed@2x.png"
           alt="natural-ingredients"
           width="82"
         />

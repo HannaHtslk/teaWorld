@@ -5,13 +5,13 @@ const AboutInfo = () => {
       <div className={s.imgWrapper}>
         <img
           className={s.img}
-          src="/public/img/about/asian@2x.png"
+          src="/img/about/asian@2x.png"
           alt="white-tea-pot"
           height="320"
         />
         <img
           className={s.img}
-          src="/public/img/about/teapot@2x.png"
+          src="/img/about/teapot@2x.png"
           alt="black-tea-pot"
           height="320"
         />

@@ -21,7 +21,7 @@ const SocialMedia = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/public/img/footer/twitter@2x.png"
+              src="/img/footer/twitter@2x.png"
               alt="twitter"
               width="24"
               height="24"
@@ -35,7 +35,7 @@ const SocialMedia = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/public/img/footer/inst@2x.png"
+              src="/img/footer/inst@2x.png"
               alt="instagram"
               width="24"
               height="24"
@@ -49,7 +49,7 @@ const SocialMedia = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/public/img/footer/tiktok@2x.png"
+              src="/img/footer/tiktok@2x.png"
               alt="tiktok"
               width="24"
               height="24"
