@@ -12,7 +12,26 @@
 
 .link {
   padding: 20px 0px;
+
+  text-decoration: none;
+  transition: color var(--transition-pattern);
+
+  color: var(--text-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .item {
   padding: 20px 0px;
+}
+
+.link:hover,
+link:focus {
+  color: #7d806a;
+}
+
+.active {
+  composes: link;
+  color: #7d806a;
 }

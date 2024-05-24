@@ -5,7 +5,26 @@
 }
 .link {
   padding: 20px 0px;
+  color: var(--text-color);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  text-decoration: none;
+  transition: color var(--transition-pattern);
+}
+.link:hover,
+link:focus {
+  color: #7d806a;
 }
 .item {
   padding: 20px 0px;
+}
+
+.active {
+  composes: link;
+  color: #7d806a;
 }

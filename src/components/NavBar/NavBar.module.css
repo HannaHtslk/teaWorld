@@ -6,13 +6,8 @@
 }
 
 .logo {
-  /* display: flex;
-  align-items: center;
-  margin-left: 180px; */
-
   display: block;
 
-  /* margin: 0 auto; */
   margin-left: 100px;
   margin-right: auto;
 
@@ -23,4 +18,20 @@
   }
 }
 .link {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color var(--transition-pattern);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.link:hover,
+link:focus {
+  color: #7d806a;
+}
+
+.active {
+  composes: link;
+  color: #7d806a;
 }

@@ -1,13 +1,11 @@
 .header {
-  background-color: #33333331;
+  background-color: transparent;
+  padding-top: 5px;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-main {
-  padding: 20px;
 }
 
 footer {

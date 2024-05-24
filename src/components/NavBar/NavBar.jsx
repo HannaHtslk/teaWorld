@@ -2,9 +2,13 @@ import { Link, NavLink } from 'react-router-dom';
 import s from './NavBar.module.css';
 import UserMenu from '../UserMenu/UserMenu';
 import Navigation from '../Navigation/Navigation';
+import clsx from 'clsx';
 
 const NavBar = () => {
-  const isLoggedIn = true;
+  const activeLink = ({ isActive }) => {
+    return clsx(s.link, isActive && s.active);
+  };
+  const isLoggedIn = false;
   return (
     <nav className={s.nav}>
       <Navigation />
@@ -20,7 +24,7 @@ const NavBar = () => {
       {isLoggedIn ? (
         <UserMenu />
       ) : (
-        <NavLink className={s.link} to="/authorization">
+        <NavLink className={activeLink} to="/authorization">
           Authorization
         </NavLink>
       )}

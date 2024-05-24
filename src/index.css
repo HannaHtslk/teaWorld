@@ -2,11 +2,18 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: #333;
+
+  background-image: url(/public/img/hero/background@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 :root {
+  --text-color: #333;
   --subheader-color: #7d806a;
   --subheader-font: 'Philosofer', sans-serif;
+  --transition-pattern: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
