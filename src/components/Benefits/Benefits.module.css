@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--subheader-color);
+  text-align: center;
+
+  font-family: Philosopher;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+}
