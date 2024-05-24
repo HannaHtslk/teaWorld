@@ -2,6 +2,10 @@
   margin: 0 auto;
 
   height: 100vh;
+  background-image: url(/public/img/hero/background@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .wrapper {
   width: 1158px;

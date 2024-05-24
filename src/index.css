@@ -2,11 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: #333;
-
-  background-image: url(/public/img/hero/background@1x.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 :root {
