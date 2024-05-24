@@ -1,0 +1,51 @@
+.img {
+  border-radius: 6px;
+}
+
+.wrapper {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.list {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+
+  text-align: start;
+  max-width: 500px;
+  width: 100%;
+}
+
+.name {
+  color: var(--subheader-color);
+
+  font-family: Philosopher;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.text {
+  width: 100%;
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}

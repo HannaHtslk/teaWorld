@@ -1,11 +1,13 @@
-import { Link } from 'react-router-dom';
+import LoginForm from '../../components/LoginForm/LoginForm';
+import s from './AuthorizationPage.module.css';
 
 const AuthorizationPage = () => {
   return (
-    <div>
-      Not authorised? register here
-      <Link to="/register">Registration</Link>
-    </div>
+    <section className={s.authSection}>
+      <div className="container">
+        <LoginForm />
+      </div>
+    </section>
   );
 };
 

@@ -1,0 +1,13 @@
+.registration {
+  padding-top: 180px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(
+      rgba(238, 238, 219, 0.4),
+      rgba(93, 89, 83, 0.2)
+    ),
+    url(/public/img/registration/oriento-dPUWgZLsOk8-unsplash\ 1@2x.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
