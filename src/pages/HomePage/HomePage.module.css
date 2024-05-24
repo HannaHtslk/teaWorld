@@ -3,10 +3,11 @@
 
   height: 100vh;
 }
-.container {
+.wrapper {
   width: 1158px;
   margin: 0 auto;
-  padding: 168px 400px 168px 15px;
+
+  padding: 168px 400px 168px 0px;
 
   display: flex;
   flex-direction: column;

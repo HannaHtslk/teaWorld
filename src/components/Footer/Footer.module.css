@@ -1,9 +1,9 @@
 .wrapper {
   display: flex;
 
-  gap: 300px;
+  gap: 200px;
+  justify-content: space-between;
   padding-top: 30px;
-  /* position: relative; */
 }
 
 .copyright {
@@ -26,8 +26,7 @@
   content: '';
   display: block;
   background-color: var(--subheader-color);
-  width: 1128px;
+  width: 1058px;
   height: 0.5px;
   top: -15px;
-  left: -465px;
 }

@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <header className={s.header}>
-        <div className={s.container}>
+        <div className="container">
           <NavBar />
         </div>
       </header>
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer className={s.footer}>
-        <div className={s.container}>
+        <div className="container">
           <Footer />
         </div>
       </footer>

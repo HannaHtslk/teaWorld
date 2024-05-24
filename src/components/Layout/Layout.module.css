@@ -2,16 +2,9 @@
   background-color: transparent;
   padding-top: 5px;
 }
-.container {
-  max-width: 1158px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 footer {
   background-color: rgba(222, 226, 189, 1);
-  /* width: 100%; */
 }
 
 footer .container {
