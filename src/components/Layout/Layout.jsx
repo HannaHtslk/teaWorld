@@ -6,7 +6,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <header className={s.header}>
-        <NavBar />
+        <div className={s.container}>
+          <NavBar />
+        </div>
       </header>
       <main>
         <Outlet />

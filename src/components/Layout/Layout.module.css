@@ -1,6 +1,10 @@
 .header {
   background-color: #33333331;
-  padding: 10px 0;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 main {
   padding: 20px;
