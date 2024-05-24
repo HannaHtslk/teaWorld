@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+
+  gap: 300px;
+  padding-top: 30px;
+  /* position: relative; */
+}
+
+.copyright {
+  color: var(--text-color);
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  position: relative;
+}
+
+.copyright::before {
+  position: absolute;
+  content: '';
+  display: block;
+  background-color: var(--subheader-color);
+  width: 1128px;
+  height: 0.5px;
+  top: -15px;
+  left: -465px;
+}

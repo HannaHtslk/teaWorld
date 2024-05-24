@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wrapper::after {
+  content: '';
+  display: block;
+  background-color: var(--subheader-color);
+  width: 0.5px;
+  height: 175px;
+  margin-top: 20px;
+  position: absolute;
+  right: -150px;
+  top: -25px;
+}
+
+.title {
+  color: var(--text-color);
+  font-family: Philosopher;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.address {
+  font-style: normal;
+}
+.list {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.item {
+  font-size: 16px;
+
+  font-weight: 300;
+  line-height: normal;
+}
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color var(--transition-pattern);
+  font-size: 16px;
+
+  font-weight: 300;
+  line-height: normal;
+}
+
+.link:hover,
+link:focus {
+  color: #7d806a;
+}

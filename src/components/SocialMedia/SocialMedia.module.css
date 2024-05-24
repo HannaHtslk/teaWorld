@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.list {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  gap: 45px;
+}
