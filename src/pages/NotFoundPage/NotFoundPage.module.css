@@ -1,0 +1,49 @@
+.section {
+  margin: 0 auto;
+  background-image: url(/public/img/hero/header-bg1@x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.icon {
+  color: var(--subheader-color);
+}
+
+.title {
+  color: var(--subheader-color);
+  font-size: 40px;
+  font-weight: 300;
+
+  margin-bottom: 100px;
+}
+
+.link {
+  text-decoration: none;
+  transition: color var(--transition-pattern);
+
+  color: var(--text-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link:hover,
+link:focus {
+  color: #7d806a;
+}
