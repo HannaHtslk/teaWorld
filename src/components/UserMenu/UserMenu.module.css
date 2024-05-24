@@ -35,3 +35,20 @@ link:focus {
   composes: link;
   color: #7d806a;
 }
+
+.btn {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--subheader-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color var(--transition-pattern);
+  font-weight: 300;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(96, 99, 68);
+}

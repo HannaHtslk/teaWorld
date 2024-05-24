@@ -8,7 +8,7 @@ const NavBar = () => {
   const activeLink = ({ isActive }) => {
     return clsx(s.link, isActive && s.active);
   };
-  const isLoggedIn = false;
+  const isLoggedIn = true;
   return (
     <nav className={s.nav}>
       <Navigation />
