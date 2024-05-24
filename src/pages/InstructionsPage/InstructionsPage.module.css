@@ -1,0 +1,14 @@
+.instr {
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(238, 216, 176, 0.2),
+      rgba(238, 216, 176, 0.2)
+    ),
+    url(/public/img/hero/header-bg1@x.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 20px;
+}
