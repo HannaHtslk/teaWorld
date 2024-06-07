@@ -6,7 +6,7 @@ const SocialMedia = () => {
     <div className={s.wrapper}>
       <Link className={s.logo} to="/">
         <img
-          src="/img/hero/logo@2x.png"
+          src="/img/hero/logo@2x.webp"
           alt="Logo"
           className={s.logo}
           width="169"
