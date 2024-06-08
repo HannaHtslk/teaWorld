@@ -5,6 +5,7 @@ const TeaItem = ({ item }) => {
   return (
     <>
       <img className={s.img} src={item.img} alt={item.title} width="240" />
+
       <div className={s.content}>
         <h4 className={s.title}>
           Name: <span className={s.span}>{item.title}</span>
@@ -18,11 +19,15 @@ const TeaItem = ({ item }) => {
             ${item.price} / {item.size}
           </span>
         </p>
-        <img
-          src="../../../public/img/hero/cart@2x.webp"
-          alt="cart"
-          width="16"
-        />
+        <button className={s.btn} type="button">
+          <img
+            className={s.icon}
+            src="../../../public/img/hero/cart@2x.webp"
+            alt="cart"
+            width="18"
+            height="22"
+          />
+        </button>
       </div>
     </>
   );
