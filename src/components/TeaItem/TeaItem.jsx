@@ -13,19 +13,20 @@ const TeaItem = ({ item }) => {
         <p className={s.region}>
           Region: <span className={s.span}>{item.region}</span>
         </p>
-        <p className={s.price}>
-          Price:
+        <p className={s.region}>
+          Region:{' '}
           <span className={s.span}>
             ${item.price} / {item.size}
           </span>
         </p>
+
         <button className={s.btn} type="button">
           <img
             className={s.icon}
             src="../../../public/img/hero/cart@2x.webp"
             alt="cart"
             width="18"
-            height="22"
+            height="20"
           />
         </button>
       </div>
