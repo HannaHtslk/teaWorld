@@ -1,7 +1,7 @@
 .section {
   margin: 0 auto;
 
-  height: 100vh;
+  height: 100%;
   background-image: url(/img/hero/background_2x_1.webp);
   background-repeat: no-repeat;
   background-position: center;

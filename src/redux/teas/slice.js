@@ -1,3 +1,4 @@
+import { createSlice } from '@reduxjs/toolkit';
 import { fetchTeasThunk } from './operations';
 
 const initialState = {
@@ -6,7 +7,7 @@ const initialState = {
   isError: false,
 };
 
-const slice = {
+const slice = createSlice({
   name: 'teas',
   initialState,
   selectors: {
@@ -29,7 +30,7 @@ const slice = {
         state.isError = true;
       });
   },
-};
+});
 
 export const teasReducer = slice.reducer;
 export const { selectTeas, selectIsError, selectIsLoading } = slice.selectors;

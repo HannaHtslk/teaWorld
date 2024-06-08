@@ -1,0 +1,40 @@
+.content {
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.title {
+  color: var(--text-color);
+  text-decoration: none;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.region {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color var(--transition-pattern);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.span {
+  color: #5b5c0bd2;
+  font-weight: 400;
+}
+
+.price {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color var(--transition-pattern);
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 300;
+}

@@ -6,7 +6,7 @@
       "price": 500,
       "region": "India",
       "size": 200,
-      "img": "https://teahouse.ua/wp-content/uploads/2024/02/060_0005_060-holovna-min.jpg"
+      "img": "./public/img/teas/0012_077-holovna-600x600.jpg"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "price": 300,
       "region": "UK",
       "size": 250,
-      "img": "https://teahouse.ua/wp-content/uploads/2024/01/0074_018-holovna-300x300.jpg"
+      "img": "./public/img/teas/0019_069-golovna-min-600x600.jpg"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "price": 450,
       "region": "China",
       "size": 150,
-      "img": "https://teahouse.ua/wp-content/uploads/2022/03/003-300x300.jpg"
+      "img": "./public/img/teas/0019_075-holovna-600x600.jpg"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "price": 350,
       "region": "Japan",
       "size": 180,
-      "img": "https://teahouse.ua/wp-content/uploads/2021/11/014-300x300.jpg"
+      "img": "./public/img/teas/0024_074-holovna-600x600.jpg"
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "price": 400,
       "region": "India",
       "size": 220,
-      "img": "https://teahouse.ua/wp-content/uploads/2021/05/026-300x300.jpg"
+      "img": "./public/img/teas/0028_049-holovna-600x600.jpg"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "price": 250,
       "region": "Egypt",
       "size": 120,
-      "img": "https://teahouse.ua/wp-content/uploads/2023/08/0019_069-golovna-min-300x300.jpg"
+      "img": "./public/img/teas/0040_046-holovna-600x600.jpg"
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "price": 280,
       "region": "Morocco",
       "size": 140,
-      "img": "https://teahouse.ua/wp-content/uploads/2024/01/0024_074-holovna-300x300.jpg"
+      "img": "./public/img/teas/0064_041-holovna-600x600.jpg"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "price": 600,
       "region": "Taiwan",
       "size": 200,
-      "img": "https://teahouse.ua/wp-content/uploads/2024/02/060_0005_060-holovna-min-300x300.jpg"
+      "img": "./public/img/teas/chzhu-e-cin-svizhist-bambukovogo-listja-024-6c2-600x600.jpg"
     },
     {
       "id": "9",
@@ -70,7 +70,7 @@
       "price": 320,
       "region": "South Africa",
       "size": 180,
-      "img": "https://teahouse.ua/wp-content/uploads/2024/02/0046_023-holky-holovna-300x300.jpg"
+      "img": "./public/img/teas/014-600x600.jpg"
     },
     {
       "id": "10",
@@ -78,7 +78,7 @@
       "price": 700,
       "region": "China",
       "size": 200,
-      "img": "hhttps://teahouse.ua/wp-content/uploads/2021/05/chzhu-e-cin-svizhist-bambukovogo-listja-024-6c2-300x300.jpg"
+      "img": "./public/img/teas/003-600x600.jpg"
     }
   ],
   "orders": []
